@@ -131,6 +131,6 @@ function draw(){
         loaded = true
         videoName = videoName.replace('.mp4','.json')
         console.log('size = '+ final.length )
-        // saveData(final,videoName);
+        saveData(final,videoName);
     }
 }
